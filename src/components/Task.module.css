@@ -1,0 +1,24 @@
+.root {
+  cursor: grab;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  user-select: none;
+  position: relative;
+}
+
+.root:active {
+  cursor: grabbing;
+}
+
+.root:hover {
+  /* border-color: thistle; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  outline: 3px solid thistle;
+}
+
+.root {
+  background-color: #bdbbbb;
+  color: white;
+  border: 1px solid #cecece;
+  border-radius: 8px;
+  padding: 4px;
+}

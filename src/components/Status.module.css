@@ -1,0 +1,16 @@
+.card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #808080;
+}
+.card.dragOver {
+  border-color: teal;
+  background-color: #cccccc80;
+}
+
+.tasks {
+  margin-top: 16px;
+  display: grid;
+  gap: 12px;
+}
